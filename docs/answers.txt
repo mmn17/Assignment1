@@ -1,0 +1,66 @@
+
+(a)
+    Enumerating objects: 11, done.
+    Counting objects: 100% (10/10), done.
+    Delta compression using up to 4 threads
+    Compressing objects: 100% (5/5), done.
+    Writing objects: 100% (7/7), 847 bytes | 282.00 KiB/s, done.
+    Total 7 (delta 2), reused 0 (delta 0)
+    remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+    To https://github.com/mmn17/Assignment1.git
+    3d373c9..d2f7698  master -> master
+
+
+
+(b)
+    git rev-list --all --count
+
+(c)
+    * commit 69281a35557fd1226cbfc11428068c5d8bcf8466
+    * Author: Javier Escobar-Avila <jrescobara@gmail.com>
+    * Date:   Thu Jan 10 16:45:38 2019 -0500
+    git log --follow .gitignore
+
+(d)
+    The master branch should represent the stable history
+    of a code.
+    (I) One of the reasons why programmers use branches is to experiment 
+        new features, implement them, and when they're fully ready 
+        merge them back to the master branch.
+    (II)Another reason is that they use branches so development can occur 
+        without a fear that the program being currupted. Also branches
+        are used as a way to organize and separate a branch for each 
+        developed feature.
+
+(e)
+    - git log shows the the list of all commits for the remote repository.
+    - git status compare the state of your local repository with the remote
+      repository.
+
+(f)
+    git log --follow Weapon.h 
+
+(g)
+    git log --grep=file
+
+(h)
+    - Inheritance is when a class inherits properties like variables or functions 
+      from another class, also refer to as parent class.
+    - Polymorphism is when parent type reference variable is use to refer to a 
+      child object.
+    - Encapsulation is when access to object's data is prevented unless through an 
+      approved function calls.
+
+(i)
+    - In Dictator and Lieutenants workflow only one central repository is use where 
+      one or two Dictator checks everyones work and then push them to the central 
+      repository. 
+    - In Integration management workflow allow each developer to have his own public
+      repository where he/she push and pull from.
+
+(j)
+    The Dictator and Lieutenants workflow will minimizes the chaos of pushing/pulling
+    because their work is being checked (frequently) little by little by Dictator. 
+    while in centralized workflow it can become hard and stressing to continuously 
+    checking if other developers work affect your work everytime, as everyone can
+    make changes to files.
