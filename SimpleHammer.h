@@ -2,7 +2,7 @@
  * File:   SimpleHammer.h
  * Author: Mohammed <mmn17@my.fsu.edu>
  * 
- * Created on Febuary 2, 2017
+ * Created on Febuary 2, 2019
  */
 
 #include "Weapon.h"
@@ -10,7 +10,7 @@
 #ifndef SIMPLEHAMMER_H
 #define SIMPLEHAMMER_H
 
-    class Flail: public Weapon{
+    class SimpleHammer: public Weapon{
         public:
             SimpleHammer(): Weapon("Simple Hammer",25){}
 

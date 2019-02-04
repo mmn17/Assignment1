@@ -2,7 +2,7 @@
  * File:   CrazyRandomSword.h
  * Author: Mohammed <mmn17@my.fsu.edu>
  * 
- * Created on Febuary 2, 2017
+ * Created on Febuary 2, 2019
  */
 
 #include <string>
@@ -11,9 +11,9 @@
 #ifndef CRAZYRANDOMSWORD_H
 #define CRAZYRANDOMSWORD_H
 
-class CrazzRandomSword : public Weapon{
+class CrazyRandomSword : public Weapon{
     public:
-        CrazzRandomSword();
+        CrazyRandomSword();
 
         double hit(double armor);
 };
