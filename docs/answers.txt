@@ -65,3 +65,13 @@
     while in centralized workflow it can become hard and stressing to continuously 
     checking if other developers work affect your work everytime, as everyone can
     make changes to files.
+
+
+
+5. 
+    - Object oriented encapsulation was use through how weapon class is protected and can only
+      be access through the weapen factory class.
+
+    - Object oriented polymorphism is use through how weapon class reference varialble is 
+      used in the main.cpp to access any kind of weapon
+
