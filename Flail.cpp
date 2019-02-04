@@ -2,13 +2,17 @@
  * File:   Flail.cpp
  * Author: Mohammed <mmn17@my.fsu.edu>
  * 
- * Created on Febuary 2, 2017, 4:20 PM
+ * Created on Febuary 2, 2017
  */
 
-#include "CrazyRandomSword.h"
+#include <string>
+#include "Flail.h"
 
-virtual double hit(double armor){
-
-    
+double Flail::hit(double armor)
+{
+	double damage = hitPoints;
+	if (armor > 20){
+		damage -= armor * damage/100;
+    }
+	return damage;
 }
-
